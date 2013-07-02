@@ -858,4 +858,19 @@
  #network .explain b {
   color: #d26911;
  }
+ ul.color-label-list .color-label,ul.color-label-list .color-label:hover {
+  border: none !important;
+  background-image: -moz-linear-gradient(top,  rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.8) 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.25)), color-stop(100%,rgba(0,0,0,0.8)));
+  background-image: -webkit-linear-gradient(top,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.8) 100%);
+  background-image: -o-linear-gradient(top,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.8) 100%);
+  background-image: linear-gradient(to bottom,  rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.8) 100%);
+ }
+ ul.filter-list .filter-item:hover {
+  background-image: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0.25) 100%) !important;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0.25))) !important;
+  background-image: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.25) 100%) !important;
+  background-image: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.25) 100%) !important;
+  background-image: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0.25) 100%) !important;
+ }
 }
